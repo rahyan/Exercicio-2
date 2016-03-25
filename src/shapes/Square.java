@@ -2,9 +2,9 @@ package shapes;
 
 class Square extends Shape {
 	private int side;
-	Square(String aName) {
+	Square(String aName, int aSide) {
 		super(aName);
-		side = 3;
+		side = aSide;
 	}
 	
 	public float calculateArea() {

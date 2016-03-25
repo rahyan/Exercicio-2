@@ -2,9 +2,9 @@ package shapes;
 
 class Circle extends Shape {
 	private int radius;
-	Circle(String aName) {
+	Circle(String aName, int aRadius) {
 		super(aName);
-		radius = 3;
+		radius = aRadius;
 	}
 	
 	public float calculateArea() {

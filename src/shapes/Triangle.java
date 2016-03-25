@@ -3,11 +3,11 @@ package shapes;
 class Triangle extends Shape {
 	private int a, b, c;
 	private float p;
-	Triangle(String aName) {
+	Triangle(String aName, int aA, int aB, int aC) {
 		super(aName);
-		a = 3;
-		b = 4;
-		c = 5;
+		a = aA;
+		b = aB;
+		c = aC;
 		p = (a + b + c)/2;
 	}
 	
